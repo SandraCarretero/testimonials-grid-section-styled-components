@@ -1,0 +1,18 @@
+.container{
+    width: 736px;
+    height: 512px;
+    background-color: white;
+    margin:100px auto;
+    display: flex;
+    border-radius: 40px;
+}
+@media only screen and (max-width: 425px) {
+    .container{
+        width: 375px;
+        height: 100%;
+        background-color: white;
+        margin:0 auto;
+        display: block;
+        border-radius: 0;
+    }
+}
