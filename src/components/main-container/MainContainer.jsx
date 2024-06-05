@@ -8,7 +8,7 @@ import {
 	StyledStatus,
 	StyledText,
 	StyledTitle
-} from './styles';
+} from './main-container.styles';
 import { DATA } from '../../constants/data';
 
 const MainContainer = () => {
